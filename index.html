@@ -6,29 +6,64 @@
     <meta name="description" content="Kimora's personal portfolio website, showcasing her work and interests." />
 	<meta name="keywords" content="portfolio, personal website, Kimora, Kimora Self" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="/style.css" />
-	<script src="/script.js" defer></script>
+	<link rel="stylesheet" href="pages/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <script src="/script.js" defer></script>
   </head>
   <body>
     <header role="banner" class="primary">
-        <nav role ="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <img src="black2.png" alt="A black horizontal line with a white border">
-        <h1>Behind The Code</h1>
+        <div class="top-bar">
+            <nav role ="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo">
+            <img src="pages/assets/img/lips.png" alt="A black horizontal line with a white border">
+            <h1>
+                <span class="behind-text">Kimora's</span>
+                <span class="the-text">Portfolio</span>
+            </h1>
+        </div>
     </header>
     <section id="intro" class="container">
-        <h1></h1>
-        <p>Hi, I'm Kimora.</p>
-        <p>Outside of coding I enjoy a variety of hobbies and interests. Music is a big part of my life, whether it's listening to it, singing, or playing instruments like the guitar and piano. I also have a passion for gaming, which not only serves as a fun pastime but also fuels my interest in game development. Additionally, I love reading fantasy novels that transport me to different worlds and spark my imagination. These interests not only provide balance in my life but also inspire my creativity in coding projects.</p>
-      </section>
-      <footer id="colophon" role="contentinfo">
-        <h6>&copy; 2025 Kimora Self. All rights reserved.</h6>
+        <div class="intro-text">
+            <img src="pages/assets/img/me.png" alt="Kimora Self" class="profile-pic">
+            <h2>
+            <span class="name-text">Hi, I'm Kimora</span>
+        </h2>
+    </div>
+    <div class="intro-paragraph"> <p>Welcome to my personal portfolio website! I'm Kimora Self, I'm currently studying Computer Science and have a passion for creating and exploring the world of technology. This site is a showcase of my projects, skills, and interests as I embark on my techincal journey. Whether you're here to see my work or learn more about me, I hope you find something that inspires you. Thank you for visiting!</p>
+    </div>
+    <div class="button-container">
+    <a href="portfolio.html" class="btn btn-pink">View My Work</a>
+    <a href="contact.html" class="btn btn-outline">Contact Me</a>
+</div>
+</section>
+    <footer id="colophon" role="contentinfo">
+        <h6>&copy; 2025 Kimora Self</h6>
       </footer>
     </body>
 </html>
