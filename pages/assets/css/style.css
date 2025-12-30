@@ -124,7 +124,7 @@ header.primary {
     max-width: 700px;
     margin: 20px auto 0 auto;
     padding: 0 20px;
-    text-align: centerG;
+    text-align: center;
 }
 
 footer#colophon {
@@ -143,7 +143,6 @@ footer#colophon h6 {
 .button-container {
     margin-top: 40px;
 }
-
 .btn {
     display: inline-block;
     padding: 15px 30px;
@@ -156,25 +155,53 @@ footer#colophon h6 {
     transition: all 0.3s ease;
     margin: 0 10px; 
 }
-
 .btn-pink {
     background-color: #ef8e94;
     color: #ffffff;
     border: 2px solid #ef8e94;
 }
-
 .btn-pink:hover {
     background-color: #d16d76;
     border-color: #d16d76;
 }
-
 .btn-outline {
     background-color: transparent;
     color: #999;
     border: 2px solid #ddd;
 }
-
 .btn-outline:hover {
     border-color: #ef8e94;
     color: #ef8e94;
+}
+
+.like-wrapper {
+    text-align: center;
+    margin-top: -10px; 
+    margin-bottom: 30px;
+}
+.like-text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 0.8rem;
+    color: #999;
+    display: block;
+    margin-top: 5px;
+}
+.heart-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
+#heart-icon {
+    font-size: 2.5rem;   
+    color: #f7c7ca;      
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+#heart-icon:hover {
+    transform: scale(1.1); 
+}
+.liked-heart {
+    color: #ef8e94 !important; 
+    transform: scale(1.1);
 }
