@@ -205,3 +205,30 @@ footer#colophon h6 {
     color: #ef8e94 !important; 
     transform: scale(1.1);
 }
+.board-container {
+    position: relative;
+    width: 80%;
+    margin-top: 20px auto;
+}
+.board{
+    width:90%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.sticker{
+    position: absolute;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+.item1{
+    top: 50px;
+    left: 180px;
+    width: 80px;
+    height: 80px;
+}
+.item1:hover{
+    transform: scale(1.5);
+    z-index:10;
+}
